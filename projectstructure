@@ -1,0 +1,12 @@
+ai-travel-guardian/
+├── app.py
+├── models.py
+├── fintech.py
+├── community.py
+├── templates/
+│   └── index.html
+├── static/
+│   ├── styles.css
+│   └── scripts.js
+├── requirements.txt
+└── README.md
