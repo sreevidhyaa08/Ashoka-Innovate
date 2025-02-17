@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Travel Guardian</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>AI Travel Guardian for Women</h1>
+        <div id="safety-score-section">
+            <h2>Check Safety Score</h2>
+            <input type="text" id="location" placeholder="Enter location">
+            <button onclick="checkSafety()">Check</button>
+            <p id="safety-score"></p>
+        </div>
+        <div id="itinerary-section">
+            <h2>Plan Itinerary</h2>
+            <textarea id="itinerary-input" placeholder="Enter travel details"></textarea>
+            <button onclick="planItinerary()">Plan</button>
+            <p id="itinerary"></p>
+        </div>
+        <div id="budget-section">
+            <h2>Track Budget</h2>
+            <textarea id="budget-input" placeholder="Enter budget details"></textarea>
+            <button onclick="trackBudget()">Track</button>
+            <p id="budget"></p>
+        </div>
+        <div id="community-section">
+            <h2>Community Alerts</h2>
+            <textarea id="community-input" placeholder="Enter location details"></textarea>
+            <button onclick="getAlerts()">Get Alerts</button>
+            <p id="alerts"></p>
+        </div>
+    </div>
+    <script src="static/scripts.js"></script>
+</body>
+</html>
